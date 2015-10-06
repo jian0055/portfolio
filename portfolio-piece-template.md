@@ -21,31 +21,11 @@ This is a branding design piece.
 
 - Description here. Write something down.
 
-## Pices two
-
-This is a branding design piece.
-
-[piece](piece2.jpg)
-
-- Description here. Write something down.
-
-## Pices threee
-
-This is a branding design piece.
-
-[piece](piece3.jpg)
-
-- Description here. Write something down.
-
 # Motion Design
 
 ## Motion 1
 
 [motion 1](heep://motion1.ca)
-
-## Motion 2
-
-[motion 1](heep://motion2.ca)
 
 # Contact me
 

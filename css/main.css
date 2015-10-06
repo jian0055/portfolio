@@ -1,0 +1,183 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: #707000;
+}
+
+.section-dark {
+  background-color: #ccc;
+}
+
+.section-medium {
+  background-color: #e2e2e2;
+}
+
+.section-light {
+  background-color: #efefef;
+}
+
+.masthead {
+  text-align: center;
+}
+
+.nav {
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav a {
+  display: block;
+
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+}
+
+.banner {
+  position: relative;
+
+  text-align: center;
+}
+
+.banner-img {
+  padding-top: 56.25%;
+
+  background: #ccc url("http://placehold.it/1920x1080/556B2F") no-repeat center center;
+  background-size: contain;
+}
+
+.intro-wrap {
+  background-color: #333;
+  width: 100%;
+}
+
+.intro {
+  margin: 0 auto;
+  max-width: 25em;
+
+  color: #fff;
+}
+
+.banner-simple {
+  background: #cd853f url("http://placehold.it/1920x400/cd853f") no-repeat center center;
+  background-position: cover;
+}
+
+.banner-simple p {
+  margin: 0 auto;
+  max-width: 25em;
+
+  text-align: center;
+}
+
+.favs {
+  text-align: center;
+}
+
+.data {
+  overflow: hidden;
+}
+
+.data dt {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .navbar {
+    display: none;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .intro-wrap {
+    bottom: 1.5rem;
+    position: absolute;
+
+    background-color: transparent;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+
+  .masthead {
+    text-align: left;
+  }
+
+  .footer {
+    text-align: left;
+  }
+
+  .nav-footer {
+    text-align: right;
+  }
+
+  .intro-wrap {
+    bottom: 3rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+   .navbar {
+    border-radius: 4px;
+  }
+
+  .navbar-header {
+    float: left;
+  }
+
+  .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+  }
+
+  .data dt {
+    clear: both;
+    float: left;
+    width: 10em;
+  }
+
+  .data dd {
+    float:  left;
+  }
+
+}

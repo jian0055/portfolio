@@ -11,7 +11,7 @@ A second year Graphic Design undergraduate student at Algonquin College with an 
 - Photoshop
 - Indesign
 
--## Contact ifo
+## Contact ifo
 
 - jimisjiang@gmail.com
 - 613 9862127 
