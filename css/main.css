@@ -71,7 +71,8 @@ a {
 .banner-img {
   padding-top: 56.25%;
 
-  background: #ccc url("http://placehold.it/1920x1080/556B2F") no-repeat center center;
+  background:no-repeat center center;
+  background-image: url('../images/bg.jpg');
   background-size: contain;
 }
 
