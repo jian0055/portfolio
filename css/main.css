@@ -70,9 +70,7 @@ a {
 
 .banner-img {
   padding-top: 56.25%;
-
-
-  background-image: url('../images/bg.jpg');
+  background-image: url('../images/photo 4.jpg') no-repeat;
   background-size: contain;
 }
 
