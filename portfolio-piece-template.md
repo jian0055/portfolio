@@ -6,8 +6,8 @@ description: its brithday gift for my friend.
 main image: her photo
 sketchs: photo.jpg
 tools: 
-	- Phtoshop
-	- Indesign
+- Phtoshop
+- Indesign
 
 ---
 
