@@ -70,7 +70,7 @@ a {
 
 .banner-img {
   padding-top: 56.25%;
-  background-image: url('../images/photo 4.jpg') no-repeat;
+  background-image: url('../images/photo 2.jpg') no-repeat;
   background-size: contain;
 }
 
@@ -86,10 +86,7 @@ a {
   color: #fff;
 }
 
-.banner-simple {
-  background: #cd853f url("http://placehold.it/1920x400/cd853f") no-repeat center center;
-  background-position: cover;
-}
+
 
 .banner-simple p {
   margin: 0 auto;
