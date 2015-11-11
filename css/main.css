@@ -27,6 +27,55 @@ body {
   width: 100%;
 }
 
+.img-fit {
+  max-width: 99%;
+  max-height: 99%;
+  display: block;
+}
+
+.lightbox {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border: 1px solid black;
+  background-color: rgba(0,0,0,.5);
+  display: none;
+}
+
+.lightbox:target {
+  display: block;
+
+}
+
+.lightbox img {
+  max-height: 100vh;
+  max-width: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.img-thum {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all .9s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+}
+
+.img-thum:hover {
+  opacity: .7;
+  -webkit-transition: all .9s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+
+}
+
 a {
   color: #707000;
 }
@@ -81,7 +130,6 @@ a {
 .intro {
   margin: 0 auto;
   max-width: 25em;
-
   color: #fff;
 }
 
@@ -90,7 +138,6 @@ a {
 .banner-simple p {
   margin: 0 auto;
   max-width: 25em;
-
   text-align: center;
 }
 
