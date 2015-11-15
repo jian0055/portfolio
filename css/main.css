@@ -57,28 +57,18 @@ body {
   margin-right: auto;
 }
 
-button {
-  margin-top: 10%;
-}
-
-input[type=text] {
-    padding:5px; 
-    border:2px solid #ccc; 
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-}
-
-input[type=text]:focus {
-    border-color:#333;
-}
-
-input[type=submit] {
-    padding:5px 15px; 
-    background:#ccc; 
-    border:0 none;
-    cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; 
+input[type=button]{
+  width: 35px;
+  position: absolute;
+  top: auto;
+  background: #A4A4A4;
+  color: #fff;
+  font-family: tahoma,geneva,algerian;
+  height: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #999;
 }
 
 .img-thum {
