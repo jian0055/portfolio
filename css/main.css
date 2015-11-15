@@ -35,15 +35,17 @@ body {
 
 .lightbox {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   position: fixed;
   width: 100%;
-  top: 0;
+  margin-top: 10%;
+  top: 0;  
   left: 0;
-  border: 1px solid black;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.7);
   display: none;
+}
+
+.center {
+  margin-top: 0;
 }
 
 .logo {
@@ -56,7 +58,7 @@ body {
 }
 
 .lightbox img {
-  max-height: 95vh;
+  max-height: 100vh;
   max-width: 100vh;
   margin-left: auto;
   margin-right: auto;
@@ -94,7 +96,7 @@ input[type=button]{
 }
 
 a {
-  color: #707000;
+  color: #9F113B;
 }
 
 .section-dark {
@@ -196,7 +198,7 @@ a {
   }
 
   .masthead {
-    text-align: left;
+    text-align: center;
   }
 
   .footer {
@@ -211,9 +213,20 @@ a {
     bottom: 3rem;
   }
 
+  body {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 }
 
 @media only screen and (min-width: 60em) {
+
+.main {
+
+  }
+
    .navbar {
     border-radius: 4px;
   }
