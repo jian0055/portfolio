@@ -22,6 +22,12 @@ body {
   padding: 0;
 }
 
+.head {
+  height:50%; 
+  width:50%;
+  float: left;
+}
+
 .flex-img {
   display: block;
   width: 100%;
@@ -49,6 +55,7 @@ body {
 }
 
 .logo {
+  float: left;
   max-width: 15%;
   max-height: 15%;
 }
@@ -130,14 +137,16 @@ a {
   text-align: center;
 }
 
+ 
+
 .banner {
   position: relative;
-
   text-align: center;
 }
 
 .banner-img {
-  padding-top: 56.25%;
+  padding-top: 20.25%;
+  background-image: url(../images/bg.jpg);
   background-size: contain;
 }
 
@@ -149,16 +158,11 @@ a {
 .intro {
   margin: 0 auto;
   max-width: 25em;
+
   color: #fff;
 }
 
 
-
-.banner-simple p {
-  margin: 0 auto;
-  max-width: 25em;
-  text-align: center;
-}
 
 .favs {
   text-align: center;
@@ -198,7 +202,7 @@ a {
   }
 
   .masthead {
-    text-align: center;
+    text-align: right;
   }
 
   .footer {
@@ -214,7 +218,6 @@ a {
   }
 
   body {
-  text-align: center;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -222,10 +225,6 @@ a {
 }
 
 @media only screen and (min-width: 60em) {
-
-.main {
-
-  }
 
    .navbar {
     border-radius: 4px;
