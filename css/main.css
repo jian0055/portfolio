@@ -46,12 +46,17 @@ body {
   display: none;
 }
 
+.logo {
+  max-width: 15%;
+  max-height: 15%;
+}
+
 .lightbox:target {
   display: block;
 }
 
 .lightbox img {
-  max-height: 100vh;
+  max-height: 95vh;
   max-width: 100vh;
   margin-left: auto;
   margin-right: auto;
