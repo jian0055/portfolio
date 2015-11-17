@@ -23,9 +23,22 @@ body {
 }
 
 .head {
-  height:50%; 
-  width:50%;
+  height:30%; 
+  width:30%;
   float: left;
+  padding-right:20px;
+}
+
+.icon {
+  height:15%; 
+  width:15%;
+  float: left;
+  padding-right:20px;
+}
+
+.name {
+  width: 40%;
+
 }
 
 .flex-img {
@@ -54,10 +67,27 @@ body {
   margin-top: 0;
 }
 
-.center-intro {
-  color: white;
-  margin-top: auto;
+.header-content {
+ position: relative;
+ color: white;
+ width: 100%;
+ padding: 100px 15px 70px;
+ text-align: center;
+}
 
+.header-content h1 {
+  margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+.header-content p {
+     margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
 }
 
 .lightbox:target {
@@ -160,7 +190,7 @@ a {
 }
 
 .intro-wrap {
-  background-color: #333;
+  color: white;
   width: 100%;
 }
 
@@ -172,13 +202,12 @@ a {
 }
 
 
-
 .favs {
   text-align: center;
 }
 
 .data {
-  overflow: hidden;
+  overflow: auto;
 }
 
 .data dt {
@@ -204,7 +233,6 @@ a {
   .intro-wrap {
     bottom: 1.5rem;
     position: absolute;
-
     background-color: transparent;
   }
 
@@ -242,6 +270,7 @@ a {
   padding-right: 10%;
 }
 
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -266,14 +295,5 @@ a {
     border: 1px solid transparent;
   }
 
-  .data dt {
-    clear: both;
-    float: left;
-    width: 10em;
-  }
-
-  .data dd {
-    float:  left;
-  }
 
 }
