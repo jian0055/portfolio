@@ -137,6 +137,12 @@ a {
   color: #9F113B;
 }
 
+a:focus {
+  outline: 3px solid black;
+
+}
+
+}
 .section-dark {
   background-color: #ccc;
 }
