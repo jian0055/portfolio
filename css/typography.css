@@ -1,6 +1,6 @@
 html {
   font: normal 100%/1.5 ;
-  font-family: "helvetica neue"; "Helvetica", "Arial";
+  font-family: "helvetica neue"; "Helvetica", "Arial", "Fjord One";
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -26,6 +26,7 @@ h1, .exa {
 }
 
 h2, .peta {
+  font-family: font-family: "Fjord One", serif;
   font-size: 1.6018rem;
   line-height: 1.8729;
 }
