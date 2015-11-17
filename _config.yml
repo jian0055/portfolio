@@ -1,2 +1,4 @@
 permalink: pretty
-baseurl: /jekyll-intro
+baseurl: /jian0055.github.io/portfolio/
+exclude: ['READEME.md']
+permalink: pretty
