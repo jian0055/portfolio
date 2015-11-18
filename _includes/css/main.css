@@ -244,13 +244,14 @@ a:focus {
   font-weight: bold;
 }
 
+  .logo {
+  max-width: 15%;
+  max-height: 15%;
+}
+
 @media only screen and (min-width: 25em) {
 
-  .logo {
-  float: center;
-  max-width: 10%;
-  max-height: 10%;
-}
+
 
   .navbar {
     display: none;
