@@ -23,7 +23,6 @@ body {
 }
 
 .head {
-  height:30%; 
   width:30%;
   float: left;
   padding-right:20px;
@@ -34,6 +33,14 @@ body {
   width:15%;
   float: left;
   padding-right:20px;
+}
+
+h2 {
+  font-family: "Fjord One", sans-serif;
+}
+
+h4 {
+  font-family: "Fjord One", sans-serif;
 }
 
 .name {
