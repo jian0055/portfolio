@@ -4,3 +4,5 @@
 {% include css/grid.css %}
 {% include css/main.css %}
 {% include css/typography.css %}
+{% include css/effect.css %}
+{% include css/component.css %}
