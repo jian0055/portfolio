@@ -1,4 +1,4 @@
 permalink: pretty
-baseurl: "portfolio"
+baseurl: ""
 exclude: ['READEME.md']
 permalink: pretty
