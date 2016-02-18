@@ -1,0 +1,147 @@
+.navbar-brand {
+  float: left;
+  height: 65px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 12px 10px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #94012d;
+    border-color: #94012d;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: #800000;
+}
+
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+    color: #94012d;
+    outline: 0;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #94012d;
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #94016E;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: #a94442;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+}
+
+.img-saturate img {
+	filter: saturate(100%);
+	-webkit-filter: saturate(100%);
+	-moz-filter: saturate(100%);
+	-o-filter: saturate(100%);
+	-ms-filter: saturate(100%);
+	opacity: .8;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	-ms-filter: grayscale(1);
+}
+
+.img-saturate img:hover
+{
+	filter: saturate(200%);
+	-webkit-filter: saturate(200%);
+	-moz-filter: saturate(200%);
+	-o-filter: saturate(200%);
+	-ms-filter: saturate(200%);
+  	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+}
+
+.team-member img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.self-info {
+	display: block;
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+::selection {
+    text-shadow: none;
+    background: #94012d;
+}
+
+address {
+	display: block;
+
+}
+
+a {
+	color: #94012d;
+	font-size: 18px;
+}
+
+a:hover{
+	color: #200000;
+}
+
+@media (min-width: 768px) {
+	.team-member img {
+	text-align: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 5%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
