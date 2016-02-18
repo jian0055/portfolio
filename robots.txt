@@ -1,3 +1,0 @@
-Sitemap: http://jian0055.github.io/portfolio/sitemap.xml
-
-User-agent: *
