@@ -5,6 +5,11 @@
   font-size: 18px;
   line-height: 20px;
 }
+.red {
+    color: #94012d;
+
+}
+
 
 .navbar-toggle {
     position: relative;
