@@ -128,13 +128,29 @@ a:hover{
 	color: #200000;
 }
 
+#photo:hover{
+	content:url(../img/team/my-color.png);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+
+}
+
 @media (min-width: 768px) {
 	.team-member img {
 	text-align: left;
     width: 300px;
     height: 300px;
-    margin-left: 5%;
+    margin-left: 20%;
 }
+
+    .self-info {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    text-align: left;
+}
+
+
 }
 
 
