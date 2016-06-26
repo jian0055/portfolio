@@ -46,7 +46,7 @@
 
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #94016E;
+    background-color: #7a222e;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -104,10 +104,10 @@
 
 .self-info {
 	display: block;
-    max-width: 90%;
-    height: auto;
-    margin-bottom: 30px;
-    margin-left: 40px;
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 ::selection {
