@@ -49,6 +49,7 @@
     background-color: #7a222e;
 }
 
+/*--
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     background: #a94442;
     position: absolute;
@@ -60,23 +61,35 @@
     -moz-transition: all ease .5s;
 }
 
+*/
+
+
+.saturate * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.saturate {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 400px;
+  width: 100%;
+  color: #94012d;
+  text-align: left;
+  font-size: 16px;
+  background-color: #fff;
+}
+
 .img-saturate img {
-	filter: saturate(100%);
-	-webkit-filter: saturate(100%);
-	-moz-filter: saturate(100%);
-	-o-filter: saturate(100%);
-	-ms-filter: saturate(100%);
-	opacity: .8;
-	-webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    filter: grayscale(1);
-	-webkit-filter: grayscale(1);
-	-moz-filter: grayscale(1);
-	-o-filter: grayscale(1);
-	-ms-filter: grayscale(1);
+	vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
 }
 
 .img-saturate img:hover
@@ -91,6 +104,64 @@
 	-moz-filter: grayscale(0);
 	-o-filter: grayscale(0);
 	-ms-filter: grayscale(0);
+}
+
+.saturate figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.saturate h3,
+.saturate h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+.saturate h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.saturate h5 {
+  font-weight: normal;
+  font-style: italic;
+  color: #888;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.saturate a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.saturate:hover > img,
+.saturate.hover > img {
+  opacity: 0.1;
+}
+
+.saturate:hover h3,
+.saturate.hover h3,
+.saturate:hover h5,
+.saturate.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .team-member img {

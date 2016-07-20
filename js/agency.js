@@ -29,3 +29,8 @@ $(window).bind('scroll',function(e){
   parallaxScroll();
  });
 
+$(".hover").mouseleave(
+  function() {
+    $(this).removeClass("hover");
+  }
+);
